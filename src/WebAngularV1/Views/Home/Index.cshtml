@@ -1,0 +1,38 @@
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html ng-app="vinnyApp">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+
+    <!-- styles:css -->
+    <link rel="stylesheet" href="~/style/styles.css">
+    <!-- endinject -->
+
+
+
+
+
+</head>
+<body>
+    <div id="wrap">
+        <div id="main" class="container">
+            <ng-view></ng-view>
+        </div>
+    </div>
+    <!-- vendors:js -->
+    <script src="~/js/vendor/vendor.js"></script>
+    <!-- endinject -->
+    <!-- domain:js -->
+    <script src="~/js/app/domain.js"></script>
+    <!-- endinject -->
+    <!-- app:js -->
+    <script src="~/js/app/app.js"></script>
+    <!-- endinject -->    
+</body>
+</html>
+

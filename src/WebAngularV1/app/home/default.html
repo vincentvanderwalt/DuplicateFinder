@@ -1,0 +1,38 @@
+﻿<div class="row">
+    <form class="form" role="form" ng-submit="vm.getDuplicateChars();">
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-12 col-xs-12">
+                    <label class="control-label">Input Text</label>
+                    
+                    <input class="form-control" name="title" type="text" ng-model="vm.home.InputValue" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-12 col-xs-12">
+                    <label class="control-label">Result</label>
+
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-xs-12">
+                   
+                    <span>{{vm.home.TextValue}}</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="form-group col-md-4">
+            <label class="control-label"></label>
+            <div class="">
+                <input type="submit" class="btn btn-primary" value="Get Duplicates" />
+            </div>
+        </div>
+    </form>
+
+</div>
